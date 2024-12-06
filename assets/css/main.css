@@ -1,0 +1,1294 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "HindSiliguri400";
+    src: url("../fonts/HindSiliguri400.ttf");
+}
+
+@font-face {
+    font-family: "HindSiliguri700";
+    src: url("../fonts/HindSiliguri700.ttf");
+}
+
+@font-face {
+    font-family: "HindSiliguri-Medium";
+    src: url(../fonts/HindSiliguri-Medium.ttf);
+}
+
+@font-face {
+    font-family: "HindSiliguri-SemiBold";
+    src: url(../fonts/HindSiliguri-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "HindSiliguri-Light";
+    src: url(../fonts/HindSiliguri-Light.ttf);
+}
+
+.container {
+    max-width: 1440px;
+    height: 8140px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    /* border: 1px solid black; */
+}
+
+
+.header {
+    padding: 57px 165px 106px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    width: 112px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.item_link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17.1px;
+    color: #292830;
+    font-family: "HindSiliguri400";
+    transition: .5s;
+}
+
+.item_link:hover {
+    transition: .5s;
+    color: tomato;
+}
+
+.header_btn {
+    width: 160px;
+    height: 48px;
+    border: 1px solid #FF7235;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17.1px;
+    font-family: "HindSiliguri400";
+    cursor: pointer;
+    color: #FF7235;
+    transition: .5s;
+}
+
+.header_btn:hover {
+    background-color: #FF7235;
+    color: white;
+    transition: .5s;
+}
+
+/* main code */
+.main {
+    padding: 0px 165px 211px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_img {
+    width: 538.2px;
+    height: 478px;
+}
+
+.main_title {
+    font-family: "HindSiliguri700";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    margin-bottom: 20px;
+
+}
+
+.main_text {
+    font-family: "HindSiliguri400";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    color: #BDBDBD;
+    margin-bottom: 40px;
+}
+
+.main_btn_group {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main_btn1 {
+    width: 225px;
+    height: 75px;
+    font-family: "HindSiliguri400";
+
+    border-radius: 8px;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    color: white;
+    transition: .5s;
+    background-color: #FF7235;
+    border: 1px solid #FF7235;
+    cursor: pointer;
+}
+
+.main_btn1:hover {
+    background-color: transparent;
+    color: #FF7235;
+    transition: .5s;
+}
+
+.main_btn2 {
+    font-family: "HindSiliguri400";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38.81px;
+    color: #BDBDBD;
+    cursor: pointer;
+    transition: .5s;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.main_btn2:hover {
+    color: #FF7235;
+    transition: .5s;
+}
+
+.section {
+    width: 1437px;
+    height: 712px;
+    background-color: rgba(255, 114, 53, 1);
+    position: relative;
+    left: -19px;
+    background-image: url(../images/Blob.png);
+}
+
+.section_img {
+    width: 1110px;
+    height: 625px;
+    background-image: url(../images/over.png);
+    margin: 0px auto;
+    position: relative;
+    top: 87px;
+
+}
+
+.section_logo {
+    width: 1440px;
+    height: 188px;
+    display: flex;
+    position: relative;
+    top: 90px;
+    padding: 90px 0px 0px 160px;
+    gap: 108px;
+}
+
+.section_teg {
+    width: 1438px;
+    height: 820px;
+    /* background-color: #FF7235; */
+    position: relative;
+    top: 200px;
+    left: -19px;
+}
+
+.section_teg_text {
+    width: 540px;
+    height: 537px;
+    /* background-color: blue; */
+    position: relative;
+    top: 142px;
+    left: 165px;
+
+}
+
+.section_teg_text1 {
+    width: 172px;
+    height: 36px;
+    font-family: "HindSiliguri400";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    text-transform: uppercase;
+}
+
+.section_teg_text2 {
+    width: 540px;
+    height: 288px;
+    font-family: "HindSiliguri700";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color-scheme: rgba(41, 40, 48, 1);
+}
+
+.section_teg_text3 {
+    width: 540px;
+    height: 117px;
+    font-family: "HindSiliguri400";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    position: relative;
+    top: 10px;
+
+}
+
+.section_teg_text4 {
+    width: 190px;
+    height: 24px;
+    font-family: "HindSiliguri400";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 114, 53, 1);
+    position: relative;
+    top: 24px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #FF7235;
+}
+
+.section_teg_img {
+    width: 539px;
+    height: 433.03px;
+    background-image: url(../images/Illustrator.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -360px;
+    left: 800px;
+
+}
+
+.section_teg2 {
+    width: 1440px;
+    height: 820px;
+    position: relative;
+    top: 200px;
+    left: -19px;
+    background-color: rgba(255, 250, 248, 1);
+
+}
+
+.section_teg2_text8 {
+    width: 540px;
+    height: 537px;
+    position: relative;
+    left: 735px;
+    top: 142px;
+    /* background-color: chocolate; */
+
+}
+
+.section_teg_img2 {
+    width: 540px;
+    height: 431.58px;
+    background-image: url(../images/li.png);
+    position: relative;
+    top: -380px;
+    left: 167px;
+
+
+}
+
+.section_teg3 {
+    width: 1440px;
+    height: 820px;
+    position: relative;
+    top: 200px;
+    left: -19px;
+    /* background-color: chartreuse; */
+}
+
+.section_teg_img3 {
+    width: 540px;
+    height: 428.24px;
+    background-image: url(../images/oo.png);
+    position: relative;
+    top: -360px;
+    left: 738px;
+
+}
+
+.section_teg4 {
+    width: 1440px;
+    height: 900px;
+    position: relative;
+    top: 200px;
+    left: -19px;
+    /* background-color: brown; */
+
+}
+
+.section_teg4_text {
+    width: 730px;
+    height: 192px;
+    top: 139px;
+    left: 165px;
+    font-family: "HindSiliguri700";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(41, 40, 48, 1);
+    position: relative;
+    top: 139px;
+    left: 165px;
+}
+
+.section_teg4_text2 {
+    width: 350px;
+    height: 156px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.81px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    font-family: "HindSiliguri400";
+    position: relative;
+    top: -30px;
+    left: 925px;
+
+}
+
+.section_teg4_teg {
+    width: 1110px;
+    height: 350px;
+    /* background-color: coral; */
+    position: relative;
+    top: 80px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+
+.box_rr {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 0px auto;
+    position: relative;
+    top: 63px;
+    background-color: rgba(255, 189, 116, 0.05);
+}
+
+.fa-laptop {
+    position: relative;
+    font-size: 24px;
+    top: 22px;
+    left: 17px;
+    color: #FF7235;
+}
+
+.box_text {
+    width: 200px;
+    height: 30px;
+    font-family: "HindSiliguri-Medium";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+
+}
+
+.box_text2 {
+    width: 220px;
+    height: 46px;
+    font-family: "HindSiliguri400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    margin: 0px auto;
+    position: relative;
+    top: 112px;
+}
+
+.box_rrr {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 0px auto;
+    position: relative;
+    top: 63px;
+    background-color: rgba(226, 89, 139, 0.05);
+}
+
+.fa-cloud {
+    position: relative;
+    font-size: 24px;
+    top: 22px;
+    left: 17px;
+    color: rgba(226, 89, 139, 1);
+}
+
+.nnn {
+    position: relative;
+    top: 144px;
+    left: 167px;
+}
+
+.box_rrrr {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 0px auto;
+    position: relative;
+    top: 63px;
+    background-color: rgba(77, 18, 238, 0.05);
+}
+
+.fa-calendar {
+    position: relative;
+    font-size: 24px;
+    top: 22px;
+    left: 20px;
+    color: rgba(77, 18, 238, 1);
+}
+
+.box:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.section_teg5 {
+    width: 1440px;
+    height: 900px;
+    position: relative;
+    top: 200px;
+    left: -19px;
+    /* background-color: blueviolet; */
+
+}
+
+.section_teg5_text {
+    width: 1110px;
+    height: 72px;
+    font-family: "HindSiliguri700";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(41, 40, 48, 1);
+    margin: 0px auto;
+    position: relative;
+    top: 124px;
+
+}
+
+.section_teg5_teg {
+    width: 1110px;
+    height: 500px;
+    /* background-color: chartreuse; */
+    margin: 0px auto;
+    position: relative;
+    top: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    width: 350px;
+    height: 500px;
+    border-radius: 12px;
+    border: 1px solid rgba(245, 245, 245, 1);
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+
+.row:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.fa-briefcase {
+    font-size: 20px;
+    color: rgba(62, 193, 243, 1);
+    position: relative;
+    top: 43px;
+    left: 42px;
+}
+
+.row_text {
+    width: 200px;
+    height: 52px;
+    font-family: "HindSiliguri-SemiBold";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 51.74px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(41, 40, 48, 1);
+    position: relative;
+    left: 40px;
+    top: 60px;
+
+}
+
+.row_text3 {
+    position: relative;
+    top: 170px;
+    left: 40px;
+}
+
+.row_text2 {
+    position: relative;
+    top: 131px;
+    left: 40px;
+}
+
+.row_text1 {
+    position: relative;
+    top: 94px;
+    left: 40px;
+}
+
+.fa-check {
+    position: relative;
+    left: -10px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.row_text4 {
+    width: 102px;
+    height: 39px;
+    font-family: "HindSiliguri-SemiBold";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.81px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    top: 200px;
+    left: 40px;
+
+}
+
+span {
+    font-family: "HindSiliguri-Light";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32.34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+
+}
+
+.row_text5 {
+    width: 134px;
+    height: 19px;
+    font-family: "HindSiliguri400";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    position: relative;
+    top: 210px;
+    left: 40px;
+}
+
+.btn2 {
+    width: 136px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #FF7235;
+    border: 1px solid rgba(255, 114, 53, 1);
+    position: relative;
+    top: 230px;
+    left: 38px;
+    font-family: "HindSiliguri400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.87px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+
+}
+
+.btn2:hover {
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid rgba(255, 114, 53, 1);
+    background: transparent;
+    color: #FF7235;
+}
+
+.fa-gift {
+    font-size: 20px;
+    color: rgba(255, 114, 53, 1);
+    position: relative;
+    top: 43px;
+    left: 42px;
+}
+
+.fa-file {
+    font-size: 20px;
+    color: rgba(77, 18, 238, 1);
+    position: relative;
+    top: 43px;
+    left: 42px;
+}
+
+.section_teg6 {
+    width: 1440px;
+    height: 800px;
+    /* background-color: chartreuse; */
+    position: relative;
+    left: -19px;
+    top: 200px;
+
+}
+
+.section_teg6_text {
+    width: 920px;
+    height: 192px;
+    font-family: "HindSiliguri700";
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(41, 40, 48, 1);
+    margin: 0px auto;
+    position: relative;
+    top: 121px;
+
+}
+
+.section_teg6_teg {
+    width: 1440px;
+    height: 250px;
+    position: relative;
+    top: 190px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.teg_box1 {
+    width: 150px;
+    height: 250px;
+    border-top: 12px solid rgba(255, 114, 53, 1);
+    border-radius: 0px 12px 12px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+
+
+}
+
+.teg_box1:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.teg_box1_text {
+    width: 160px;
+    height: 145px;
+    font-family: "HindSiliguri400";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    top: 16px;
+
+}
+
+.teg_box1_text2 {
+    width: 186px;
+    height: 26px;
+    font-family: "HindSiliguri400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.87px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    position: relative;
+    top: 50px;
+    left: 5px;
+
+}
+
+.teg_box2 {
+    width: 350px;
+    height: 250px;
+    border-radius: 12px;
+    border-top: 12px solid rgba(255, 190, 33, 1);
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+
+.teg_box2:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.teg_box2_text {
+    width: 293px;
+    height: 145px;
+    font-family: "HindSiliguri400";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(0, 0, 0, 1);
+    margin: 0px auto;
+    position: relative;
+    top: 16px;
+}
+
+.box_grug {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../images/694c7a966a7949d7cd072deeeade345c.png);
+    background-size: cover;
+    position: relative;
+    top: 34px;
+    left: 28px;
+
+
+}
+
+.box_grug_text {
+    width: 200px;
+    height: 26px;
+    font-family: "HindSiliguri700";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.87px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    left: 40px;
+
+}
+
+.teg_box3 {
+    width: 350px;
+    height: 250px;
+    border-radius: 12px;
+    border-top: 12px solid rgba(71, 86, 223, 1);
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+
+.teg_box4 {
+    width: 350px;
+    height: 250px;
+    border-radius: 12px;
+    border-top: 12px solid rgba(62, 193, 243, 1);
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+
+}
+
+.teg_box5 {
+    width: 150px;
+    height: 250px;
+    border-top: 12px solid rgba(187, 114, 89, 1);
+    border-radius: 12px 0px 0px 12px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+
+.box_grug2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../images/60.png);
+    background-size: cover;
+    position: relative;
+    top: 34px;
+    left: 28px;
+
+}
+
+.box_grug3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../images/bd.png);
+    background-size: cover;
+    position: relative;
+    top: 34px;
+    left: 28px;
+}
+
+.teg_box5_text {
+    width: 160px;
+    height: 145px;
+    font-family: "HindSiliguri400";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
+
+.box_grug4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../images/8.png);
+    background-size: cover;
+    position: relative;
+    top: 34px;
+    left: 28px;
+}
+
+.teg_box3:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.teg_box4:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.teg_box5:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.icon {
+    width: 100px;
+    height: 12px;
+    /* background-color: chartreuse; */
+    position: relative;
+    top: 60px;
+    left: 650px;
+    display: flex;
+    gap: 8px;
+
+
+}
+
+.section_teg7 {
+    width: 1440px;
+    height: 750px;
+    position: relative;
+    left: -19px;
+    top: 200px;
+    background-color: #FF7235;
+    background-image: url(../images/Blob.png);
+    background-size: cover;
+}
+
+.section_teg7_text {
+    width: 920px;
+    height: 144px;
+    font-family: "HindSiliguri700";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px auto;
+    position: relative;
+    top: 120px;
+
+}
+
+.section_teg7_text2 {
+    width: 920px;
+    height: 36px;
+    font-family: "HindSiliguri-Light";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px auto;
+    position: relative;
+    top: 144px;
+}
+
+.btn7 {
+    width: 213px;
+    height: 60px;
+    border-radius: 8px;
+    position: relative;
+    left: 613px;
+    top: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #FF7235;
+    font-family: "HindSiliguri400";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20.9px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    transition: .5s;
+
+
+}
+
+.btn7:hover {
+    cursor: pointer;
+    border: 1px solid rgba(255, 114, 53, 1);
+    background-color: white;
+    color: #FF7235;
+    transition: .5s;
+}
+
+.section_teg7_img {
+    width: 455px;
+    height: 322.23px;
+    background-image: url(../images/Layer\ 10.png);
+    position: relative;
+    top: 90px;
+    left: 61px;
+
+}
+
+.section_teg7_img2 {
+    width: 445px;
+    height: 339.57px;
+    background-image: url(../images/Layer\ 4.png);
+    position: relative;
+    left: 911px;
+    top: -240px;
+}
+
+.footer {
+    width: 1440px;
+    height: 530px;
+    /* background-color: aqua; */
+    position: relative;
+    left: -19px;
+    top: 200px;
+
+}
+
+.foot {
+    width: 1109px;
+    height: 277px;
+    /* background-color: chartreuse; */
+    margin: 0px auto;
+    position: relative;
+    top: 80px;
+}
+
+.foot_li {
+    width: 138px;
+    height: 39px;
+    font-family: "HindSiliguri-Light";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    gap: 132px;
+    text-transform: uppercase;
+    position: relative;
+    left: 272px;
+    top: -40px;
+
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.new {
+    position: relative;
+    left: 80px;
+}
+
+.nnm {
+    width: 100px;
+    height: 29px;
+    font-family: "HindSiliguri-Light";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 5px;
+    position: relative;
+    top: -30px;
+    left: 270px;
+    color: rgba(41, 40, 48, 1);
+    transition: .5s;
+}
+
+.nnmm {
+    width: 200px;
+    height: 29px;
+    font-family: "HindSiliguri-Light";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 5px;
+    position: relative;
+    top: -240px;
+    left: 470px;
+    color: rgba(41, 40, 48, 1);
+    transition: .5s;
+}
+
+.nnm:hover {
+    transition: .5s;
+    color: #FF7235;
+    cursor: pointer;
+}
+
+.nnmm:hover {
+    transition: .5s;
+    color: #FF7235;
+    cursor: pointer;
+}
+
+.foot_textt {
+    width: 305px;
+    height: 32px;
+    font-family: "HindSiliguri400";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    position: relative;
+    top: -380px;
+    left: 710px;
+
+}
+
+input {
+    width: 349px;
+    height: 62px;
+    border-radius: 8px;
+    border: 1px solid rgba(41, 40, 48, 1);
+    position: relative;
+    top: -362px;
+    left: 710px;
+
+
+}
+
+input::placeholder {
+    position: relative;
+    left: 23px;
+    color: rgba(41, 40, 48, 1);
+}
+
+.btn9 {
+    width: 102px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #FF7235;
+    border: none;
+    position: relative;
+    top: -362px;
+    left: 590px;
+    color: white;
+    transition: .5s;
+
+}
+
+.btn9:hover {
+    transition: .5s;
+    cursor: pointer;
+    color: #FF7235;
+    background-color: white;
+    border: 1px solid rgba(255, 114, 53, 1);
+}
+
+.fooyy {
+    width: 204px;
+    height: 23px;
+    font-family: "HindSiliguri400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(189, 189, 189, 1);
+    position: relative;
+    top: -352px;
+    left: 710px;
+}
+
+.hhh {
+    width: 1109px;
+    height: 1px;
+    background-color: #BDBDBD;
+    margin: 0px auto;
+    position: relative;
+    top: 120px;
+}
+
+.kon {
+    width: 1111px;
+    height: 23px;
+    /* background-color: chartreuse; */
+    margin: 0px auto;
+    position: relative;
+    top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kon_text {
+    width: 200px;
+    height: 23px;
+    font-family: "HindSiliguri400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(41, 40, 48, 1);
+    position: relative;
+    top: -4px;
+
+}
+
+.hhf {
+    color: rgb(255, 255, 255);
+}
+
+.kon_text2 {
+    width: 154px;
+    height: 23px;
+    font-family: "HindSiliguri400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(41, 40, 48, 1);
+}
+
+.foot_icon {
+    width: 84px;
+    height: 20px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.fa-square-facebook{
+    font-size: 17.5px;
+    color: rgba(41, 40, 48, 1);
+}
+.fa-square-twitter{
+    font-size: 17.5px;
+    color: rgba(41, 40, 48, 1);
+}
+.fa-linkedin{
+    font-size: 17.5px;
+    color: rgba(41, 40, 48, 1);
+}
